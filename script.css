@@ -1,0 +1,54 @@
+body {
+	background-color: #333333;
+	margin: 0;
+}
+
+h1 {
+	text-align: center;
+    color: white;
+    background: green;
+    margin: 0;
+    padding: 70px;
+}
+
+#isi {
+	margin: 20px auto;
+	max-width: 900px;
+}
+
+.kotak {
+	width: 25%;
+	background: blue;
+    float: left;
+    padding: 10%;
+    margin: 15px;
+    border-radius: 20px;
+}
+
+.kotak:hover {
+    cursor: pointer;
+}
+
+#kaki {
+    clear: left;
+    background: lightgrey;
+	height: 50px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+button {
+	border: none;
+	background: none;
+	text-transform: lowercase;
+	height: 100%;
+	color: green;
+    outline: none;
+    font-size: large;
+}
+
+button:hover {
+	color: white;
+    background: brown;
+    cursor: pointer;
+}
